@@ -11,7 +11,7 @@
     box-sizing: border-box;
 }
 .navbar{
-    background-color: #A3DC9A;
+    background-color: #ffffff;
 }
 .Tc{
     color: var(--G5);
@@ -34,9 +34,7 @@
 .nav-item a {
     color: var(--G5);
 }
-.nav-item a:hover {
-    color: aliceblue;
-}
+
 .nav-link {
     
     font-weight: 500;
@@ -58,7 +56,7 @@
     transform: translateX(-50%) scaleX(0);
     width: 80%;
     height: 2px;
-    background-color: #ffffff;
+    background-color: var(--G5);
     border-radius: 2px;
     transition: transform 0.25s ease-out;
   }
@@ -202,7 +200,8 @@
 
 /* ABOUT */
 .bc-about{
-    background-color: #A3DC9A;
+    background-color:var(--G5);
+    color: white;
 }
 .list-ab{
     margin: 0 300px;
@@ -300,7 +299,8 @@
 
 /*Activity  */
 .b-act{
-    background-color: var(--G3);
+    background-color: var(--G5);
+    color: white;
 }
 
 /* CARD */
@@ -428,6 +428,10 @@
 
 
 /* GALERY */
+.g-bc{
+  background-color: var(--G5);
+  color: white;
+}
 .card {
   min-height: 100%; /* Pastikan tinggi card minimal 100% agar sejajar dengan card lain */
   display: flex; /* Gunakan flexbox untuk layout */
@@ -435,6 +439,7 @@
 }
 
 .card-body {
+  background-color: #A3DC9A;
   flex: 1; /* Isi sisa ruang dalam card */
   display: flex; /* Jadikan card-body flex container */
   flex-direction: column; /* Susun kontennya dari atas ke bawah */
@@ -457,4 +462,11 @@
     cursor: pointer;
   }
 
-  
+  /* FOOTER */
+  .fot{
+    background-color: white;
+    color: #004030;
+  }
+  .fot li a{
+    color: #004030;
+  }
